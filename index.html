@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Sidebar-->
+    <aside class="sidebar">
+      <div class="logo">🛒 ShopAdmin</div>
+
+      <nav class="sidebar-nav">
+        <a href="#">📦 Orders </a>
+        <a href="#">🛍️ Products</a>
+        <a href="#">👥 Customers</a>
+        <a href="#">⚙️ Settings</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Header -->
+      <header class="topbar">
+        <div>
+          <p class="page-label">ADMIN PANEL</p>
+          <h1>Dashboard</h1>
+        </div>
+
+        <div class="header-actions">
+          <button class="theme-btn" id="themebtn">🌙</button>
+
+          <div class="profile">
+            <div class="avatar">A</div>
+
+            <div>
+              <strong>Admin User</strong>
+              <span>Administrator</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Welcome Section -->
+      <section class="welcome-section">
+        <div>
+          <p>Welcome back 👋</p>
+          <h2>Here's what's happening with your store today.</h2>
+        </div>
+
+        <button class="primary-btn">+ Add Product</button>
+      </section>
+
+      <!-- Statistics -->
+      <section class="stats-grid">
+        <article class="stat-card">
+          <div class="stat-icon">💰</div>
+
+          <div>
+            <span>Total Revenue</span>
+            <h3>&#8377;84,560</h3>
+            <small>↗ 12.5% this month</small>
+          </div>
+        </article>
+
+        <article class="stat-card">
+          <div class="stat-icon">🛒</div>
+
+          <div>
+            <span>Total Orders</span>
+            <h3>1,248</h3>
+            <small>↗ 8.2% this month</small>
+          </div>
+        </article>
+
+        <article class="stat-card">
+          <div class="stat-icon">📦</div>
+
+          <div>
+            <span>Total Products</span>
+            <h3>356</h3>
+            <small>↗ 5.4% this month</small>
+          </div>
+        </article>
+
+        <article class="stat-card">
+          <div class="stat-icon">👥</div>
+
+          <div>
+            <span>Customer</span>
+            <h3>8,549</h3>
+            <small>↗ 10.8% this month</small>
+          </div>
+        </article>
+      </section>
+
+      <!-- Dashboard Content -->
+      <section class="dashboard-grid">
+        <!-- Sales Overview -->
+        <article class="dashboard-card sales-card">
+          <div class="card-header">
+            <div>
+              <span>OVERVIEW</span>
+              <h2>Sales Overview</h2>
+            </div>
+
+            <select>
+              <option>Last 7 days</option>
+              <option>Last 30 days</option>
+              <option>Last 3 months</option>
+            </select>
+          </div>
+
+          <div class="chart">
+            <div class="chart-line"></div>
+
+            <div class="chart-bars">
+              <span style="height: 45%"></span>
+              <span style="height: 65%"></span>
+              <span style="height: 50%"></span>
+              <span style="height: 80%"></span>
+              <span style="height: 60%"></span>
+              <span style="height: 90%"></span>
+              <span style="height: 72%"></span>
+            </div>
+
+            <div class="chart-labels">
+              <span>Mon</span>
+              <span>Tue</span>
+              <span>Wed</span>
+              <span>Thu</span>
+              <span>Fri</span>
+              <span>Sat</span>
+              <span>Sun</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product Performance -->
+        <article class="dashboard-card performance-card">
+          <div class="card-header">
+            <div>
+              <span>PERFORMANCE</span>
+              <h2>Top Products</h2>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="product-image">🎧</div>
+
+            <div class="product-info">
+              <strong>Wireless Headphones</strong>
+              <span>245 sold</span>
+            </div>
+
+            <b>&#8377;24,500</b>
+          </div>
+
+          <div class="product-item">
+            <div class="product-image">⌚</div>
+
+            <div class="product-info">
+              <strong>Smart Watch</strong>
+              <span>189 sold</span>
+            </div>
+
+            <b>&#8377;18,900</b>
+          </div>
+
+          <div class="product-item">
+            <div class="product-image">👟</div>
+
+            <div class="product-info">
+              <strong>Running Shoes</strong>
+              <span>156 sold</span>
+            </div>
+
+            <b>&#8377;15,600</b>
+          </div>
+
+          <div class="product-item">
+            <div class="product-image">🎒</div>
+
+            <div class="product-info">
+              <strong>Travel Backpack </strong>
+              <span>132 sold</span>
+            </div>
+
+            <b>&#8377;13,200</b>
+          </div>
+        </article>
+      </section>
+
+      <!-- Recent Orders -->
+      <section class="dashboard-card orders-card">
+        <div class="card-header">
+          <div>
+            <span>ORDERS</span>
+            <h2>Recent Orders</h2>
+          </div>
+
+          <a href="#">View All</a>
+        </div>
+
+        <div class="order-item order-header">
+          <span>Order</span>
+          <span>Customer</span>
+          <span>Product</span>
+          <span>Amount</span>
+          <span>Status</span>
+        </div>
+
+        <div class="order-item">
+          <span>#ORD-1024</span>
+          <span>Swati Bhoi</span>
+          <span>Wireless Headphones</span>
+          <span>&#8377;4,999</span>
+          <span class="status delivered">Delivered</span>
+        </div>
+
+        <div class="order-item">
+          <span>#ORD-1023</span>
+          <span>Priya Patel</span>
+          <span>Smart Watch</span>
+          <span>&#8377;7,499</span>
+          <span class="status pending">Pending</span>
+        </div>
+
+        <div class="order-item">
+          <span>#ORD-1022</span>
+          <span>Sahil Bhoi</span>
+          <span>Running Shoes</span>
+          <span>&#8377;3,299</span>
+          <span class="status delivered">Delivered</span>
+        </div>
+
+        <div class="order-item">
+          <span>#ORD-1021</span>
+          <span>Sweta Bhoi</span>
+          <span>Travel Backpack</span>
+          <span>&#8377;2,899</span>
+          <span class="status cancelled">Cancelled</span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
