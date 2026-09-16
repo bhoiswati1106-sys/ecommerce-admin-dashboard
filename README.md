@@ -49,3 +49,7 @@ Responsive screenshots of the actual project are included below.
 ecommerce-admin-dashboard/
 ├── index.html
 └── style.css
+
+##  Author
+
+Swati Bhoi
