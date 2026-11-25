@@ -1,6 +1,6 @@
 # 🛒 E-commerce Admin Dashboard
 
-A responsive admin dashboard for an online store that works on desktop, tablet and mobile screens. Built as part of my Full Stack Web Development internship at RabTech Academy.
+A responsive admin dashboard for an online store that works on desktop, tablet and mobile screens.
 
 🔗 **Live Demo:** https://bhoiswati1106-sys.github.io/ecommerce-admin-dashboard/
 
@@ -63,6 +63,3 @@ ecommerce-admin-dashboard/
 
 **Swati Bhoi** — BCA Student & Frontend Web Developer
 
-- LinkedIn: https://www.linkedin.com/in/swati-bhoi/
-- GitHub: https://github.com/bhoiswati1106-sys
-- Portfolio: https://my-portfolio-5nvz.vercel.app/
